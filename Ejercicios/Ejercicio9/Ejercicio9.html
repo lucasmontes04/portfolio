@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 09 - Componentes Bootstrap 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+<nav id="mainNav" class="navbar navbar-expand-md navbar-light bg-white border-bottom fixed-top py-2">
+  <div class="container">
+    <a class="navbar-brand fw-semibold" href="#top">BS5 Land</a>
+    <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+      <ul class="navbar-nav gap-2">
+        <li class="nav-item"><a class="nav-link active" href="#top">Top</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#call">Call</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section id="top" class="hero-section" style="padding-top: 80px;">
+  <div class="container text-center py-5">
+    <h1 class="display-4 fw-bold mb-3">One Page Website<br>Template</h1>
+    <p class="text-muted mb-4">We are a team of talented designers</p>
+    <a href="#contact" class="btn btn-primary px-4">Get Started</a>
+  </div>
+  <div class="container pb-5">
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border shadow-sm p-3">
+          <div class="card-body p-0">
+            <i class="bi bi-layers card-icon d-block mb-3 fs-2"></i>
+            <h6 class="fw-bold mb-2">Lorem ipsum</h6>
+            <p class="text-muted small mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quisquam impedit reiciendis harum, excepturi ea!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border shadow-sm p-3">
+          <div class="card-body p-0">
+            <i class="bi bi-palette card-icon d-block mb-3 fs-2"></i>
+            <h6 class="fw-bold mb-2">Sed ut perspiciatis</h6>
+            <p class="text-muted small mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quisquam impedit reiciendis harum, excepturi ea!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border shadow-sm p-3">
+          <div class="card-body p-0">
+            <i class="bi bi-command card-icon d-block mb-3 fs-2"></i>
+            <h6 class="fw-bold mb-2">Magni dolores</h6>
+            <p class="text-muted small mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quisquam impedit reiciendis harum, excepturi ea!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border shadow-sm p-3">
+          <div class="card-body p-0">
+            <i class="bi bi-fingerprint card-icon d-block mb-3 fs-2"></i>
+            <h6 class="fw-bold mb-2">Nemo enim</h6>
+            <p class="text-muted small mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quisquam impedit reiciendis harum, excepturi ea!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="py-5 border-top">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold text-uppercase letter-spacing-1" style="letter-spacing:.05em;">About Us</h2>
+      <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, culpa!</p>
+    </div>
+
+    <div class="row g-4 mb-5 align-items-start">
+      <div class="col-md-6">
+        <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corporis dolore impedit voluptatibus doloribus, quaerat ducimus? Nobis enim illum maxime.</p>
+        <ul class="list-unstyled text-muted small mt-3">
+          <li class="mb-1"><i class="bi bi-check2 text-primary me-2"></i>Doloribus officiis possimus eveniet voluptas ratione</li>
+          <li class="mb-1"><i class="bi bi-check2 text-primary me-2"></i>Nisi corporis dolore impedit eque eum sint!</li>
+          <li class="mb-1"><i class="bi bi-check2 text-primary me-2"></i>Aliquid nihil maxime culpa est porro rem doloribus</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <p class="text-muted small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil maxime culpa est porro rem doloribus perferendis voluptates. Voluptate soluta velit repudiandae cumque, animi sunt incidunt corporis officiis? Distinctio, sint!</p>
+        <a href="#contact" class="btn btn-outline-primary btn-sm mt-3">Learn more</a>
+      </div>
+    </div>
+
+    <div class="row text-center border-top border-bottom py-4 g-3 mb-5">
+      <div class="col-6 col-md-3">
+        <div class="stat-number fs-1 text-primary">65</div>
+        <p class="text-primary small mb-0">Happy clients</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-number fs-1 text-primary">85</div>
+        <p class="text-primary small mb-0">Projects</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-number fs-1 text-primary">12</div>
+        <p class="text-primary small mb-0">Years of experience</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-number fs-1 text-primary">15</div>
+        <p class="text-primary small mb-0">Awards</p>
+      </div>
+    </div>
+
+    <div id="call" class="row g-4 align-items-center mb-5">
+      <div class="col-lg-6">
+      </div>
+      <div class="col-lg-6">
+        <h5 class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, cupiditate?</h5>
+        <p class="text-muted small">Sit amet consectetur adipisicing elit. Nesciunt consequatur perferendis adipisci, optio laborum sunt nobis, blanditis corporis accusamus asperiores quod iure perspiciatis suscpit rem in libero ipsam sint qui?</p>
+        <ul class="list-unstyled text-muted small mt-2">
+          <li class="mb-1"><i class="bi bi-check2-all text-primary me-2"></i>Nesciunt consequatur perferendis adipisci</li>
+          <li class="mb-1"><i class="bi bi-check2-all text-primary me-2"></i>Laborum sunt nobis, blanditis corporis quod iure</li>
+          <li class="mb-1"><i class="bi bi-check2-all text-primary me-2"></i>Asperiores quod iure perspiciatis sam sint qui</li>
+          <li class="mb-1"><i class="bi bi-check2-all text-primary me-2"></i>blanditis corporis accusamus asperiores quod</li>
+        <p class="text-muted small mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, repellat doloremque tenetur, ab eaque repellendus labore in repudiandae dolor consequatur reiciendis? Nihil ut assumenda officia tempora! Minima culpa quo fugit.</p>
+      </div>
+    </div>
+
+    <div class="row g-4 align-items-center mb-5">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <h5 class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, cupiditate?</h5>
+        <p class="text-muted small">Sit amet consectetur adipisicing elit. Nesciunt consequatur perferendis adipisci, optio laborum sunt nobis, blanditis corporis accusamus asperiores quod iure perspiciatis suscpit rem in libero ipsam sint qui?</p>
+        <ul class="list-unstyled text-muted small mt-2">
+          <li class="mb-1"><i class="bi bi-check2-all text-primary me-2"></i>Nesciunt consequatur perferendis adipisci</li>
+          <li class="mb-1"><i class="bi bi-check2-all text-primary me-2"></i>Laborum sunt nobis, blanditis corporis quod iure</li>
+          <li class="mb-1"><i class="bi bi-check2-all text-primary me-2"></i>Asperiores quod iure perspiciatis sam sint qui</li>
+          <li class="mb-1"><i class="bi bi-check2-all text-primary me-2"></i>blanditis corporis accusamus asperiores quod</li>
+        </ul>
+        <p class="text-muted small mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, repellat doloremque tenetur, ab eaque repellendus labore in repudiandae dolor consequatur reiciendis? Nihil ut assumenda officia tempora! Minima culpa quo fugit.</p>
+      </div>
+
+      <div class="col-lg-6 order-1 order-lg-2">
+        <div id="mainCarousel" class="carousel slide rounded shadow-sm overflow-hidden" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3" class="bg-secondary" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/12.jpg" class="d-block w-100" alt="Fourth slide" />
+              <div class="carousel-caption">
+                <h6 class="mb-1">Fourth slide label</h6>
+                <p class="small d-none d-md-block">Some representative placeholder content for the third slide.</p>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="py-5 bg-primary text-white text-center">
+  <div class="container py-4">
+    <h2 class="fw-bold mb-3">Call to action</h2>
+    <p class="mb-4 text-white">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, inventore porro.
+      Natus iusto excepturi provident exercitationem asperiores, eos sunt odit.
+    </p>
+    <a href="#contact" class="btn btn-outline-light px-4">Call to action</a>
+  </div>
+</section>
+
+<section id="gallery" class="py-5 bg-light border-top">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold" style="letter-spacing:.05em;">Gallery</h2>
+    </div>
+    <div class="row g-3">
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/1.jpg" class="img-fluid"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/2.jpg" class="img-fluid  gallery-img w-100"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/3.jpg" class="img-fluid  gallery-img w-100"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/4.jpg" class="img-fluid  gallery-img w-100"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/5.jpg" class="img-fluid  gallery-img w-100"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/6.jpg" class="img-fluid  gallery-img w-100"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/7.jpg" class="img-fluid  gallery-img w-100"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/8.jpg" class="img-fluid  gallery-img w-100"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/9.jpg" class="img-fluid"/>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img src="imagenes/10.jpg" class="img-fluid"/>
+      </div>
+  </div>
+</section>
+
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content border-0">
+      <div class="modal-header border-0 pb-0">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-3">
+        <img id="galleryModalImg" src="" alt="" class="img-fluid rounded w-100 mb-2" />
+        <p id="galleryModalCaption" class="text-muted text-center small mb-0"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="faq" class="py-5 border-top">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold" style="letter-spacing:.05em;">Frequently asked questions</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+                Accordition Item #1
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+              This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false">
+                Accordition Item #2
+              </button>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false">
+                Accordition Item #3
+              </button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false">
+                Accordition Item #4
+              </button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5 border-top">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold text-uppercase" style="letter-spacing:.05em;">Contact us</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <form id="contactForm" class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-md-12">
+              <label for="fName" class="form-label">Nombre</label>
+              <input type="text" class="form-control"/>
+            </div>
+            <div class="col-12">
+              <label for="fEmail" class="form-label">Email</label>
+              <input type="email" class="form-control"/>
+            </div>
+            <div class="col-12">
+              <label for="fMessage" class="form-label">Message</label>
+              <textarea class="form-control" id="fMessage" rows="5"></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+              <p>Todos los campos son obligatorios</p>
+            </div>
+            <div class="col-md-2">
+              <button class="btn btn-primary w-100" type="submit">Consultar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-dark text-white-50 text-center pt-5 pb-3">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</footer>
+</body>
+</html>

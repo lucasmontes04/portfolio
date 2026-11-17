@@ -1,0 +1,123 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-color: #f0f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lienzo a pantalla completa */
+.canvas-light {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at center, #e9f1f9 0%, #dbe7f5 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6vw 0 8vw;
+    z-index: 2;
+}
+
+/* Tipografía y Textos */
+.hero-text {
+    max-width: 60vw;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(36px, 6vw, 82px);
+    font-weight: 600;
+    color: #1a1a2e;
+    line-height: 1.1;
+    margin-bottom: 2.5vw;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accent {
+    color: #5c7cfa;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(14px, 1.2vw, 18px);
+    color: #4a5568;
+    line-height: 1.6;
+    max-width: 28vw;
+}
+
+/* Manejo de la Imagen */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    max-width: 50vw;
+    height: auto;
+}
+
+/* Decoración extra para el fondo (opcional) */
+.canvas-light::before {
+    content: "";
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.4);
+    filter: blur(80px);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Ajustes responsive en pantallas pequeñas */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        padding: 4vh 6vw;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 80vw;
+        margin-bottom: 4vh;
+    }
+
+    .hero-image {
+        justify-content: center;
+    }
+
+    .hero-image img {
+        max-width: 70vw;
+    }
+
+    h1 {
+        margin-bottom: 2vh;
+    }
+
+    p {
+        max-width: 80vw;
+    }
+}

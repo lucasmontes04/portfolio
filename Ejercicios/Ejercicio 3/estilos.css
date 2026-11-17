@@ -1,0 +1,64 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  width: 600px;     
+  margin: 0 auto;    
+  padding: 40px;
+  text-align: left;
+}
+
+
+.titulo-principal {
+  color: #00a859; 
+  text-align: center;
+  font-size: 48px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.texto-rojo {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.titulo-seccion {
+  color: #0071bc; 
+  text-align: center;
+  font-size: 32px;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.subtitulo-naranja {
+  color: #f7931e; 
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.texto-verde {
+  color: #8cc63f; 
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.texto-salmon {
+  color: #f1968d;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.texto-lila {
+  color: #9e9ecb; /
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.texto-fucsia {
+  color: #ed008c; 
+  font-size: 14px;
+}

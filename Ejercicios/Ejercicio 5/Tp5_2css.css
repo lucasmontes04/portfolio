@@ -1,0 +1,116 @@
+/* Estilos Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #f0f2f5;
+    padding: 2rem;
+}
+
+.profile-app {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.header {
+    background: #1e3c72;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* 2. Área de perfil */
+.profile-main {
+    padding: 2rem;
+}
+
+/* 3. Menú de perfil arriba de la foto, en columna */
+.profile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.menu-item {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    background: #f8f9fa;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.menu-item:hover {
+    background: #e9ecef;
+}
+
+/* Estilos de contenido */
+.avatar { width: 100px; border-radius: 50%; }
+.post { background: #f9f9ff; padding: 1rem; margin-top: 1rem; border-left: 4px solid #2c7da0; }
+
+/* Estadísticas del perfil */
+.stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: #f1f5f9;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    max-width: fit-content;
+    margin: 1rem 0;
+}
+
+.stat-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000;
+    line-height: 1.2;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #4b5563;
+    margin-top: 0.2rem;
+}

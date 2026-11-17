@@ -1,0 +1,93 @@
+/* Configuraciones base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #041129;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* El lienzo ocupa toda la ventana sin márgenes */
+.canvas {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #0f2b5e; /* Fondo azul */
+}
+
+/* Imagen corners en la esquina superior izquierda (invertida) */
+.corner-tl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 20vh;
+    object-fit: cover;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+/* Imagen corners en la esquina inferior derecha */
+.corner-br {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 35vw;
+    height: 35vh;
+    object-fit: contain;
+    object-position: right bottom;
+    z-index: 1;
+}
+
+/* Contenedor de contenido sobre el fondo */
+.container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 80px;
+}
+
+/* Estilos de Texto */
+.text-content {
+    flex: 1;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+/* Estilos para la imagen del Chat */
+.chat-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 60px;
+    margin-right: 200px;
+}
+
+.chat-ui {
+    width: 380px;
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0,0,0,0.4));
+}
